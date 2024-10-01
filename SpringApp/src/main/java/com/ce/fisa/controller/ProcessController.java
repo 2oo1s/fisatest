@@ -12,6 +12,6 @@ public class ProcessController {
 	@GetMapping("/test")
 	public String reqRes() {
 		log.info("요청 수락 ~~~");
-		return "linux 서버에서 실행되는 app + 241001 파일 변화 자동 감지 테스트 + myserver02로 넘기기!!!! + 자동실행까지!!!plz \n 마 지 막 시 도 ing!";
+		return "linux 서버에서 실행되는 app + 241001 파일 변화 자동 감지 테스트 + myserver02로 넘기기!!! + 자동실행까지!!!plz \n 마 지 막 시 도 ing!";
 	}
 }
